@@ -53,8 +53,6 @@ echo 'export LD_LIBRARY_PATH="$HOME/vendor/libreoffice/deps/lib:$LD_LIBRARY_PATH
 
 echo 'installing unoconv'
 curl -L https://raw.githubusercontent.com/dagwieers/unoconv/master/unoconv -o $CACHE_DIR/unoconv
-echo '2'
-mkdir -p $CACHE_DIR/unoconv
 echo '3'
 tar xzf $CACHE_DIR/unoconv -C $CACHE_DIR
 echo '4'
