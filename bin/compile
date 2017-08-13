@@ -54,5 +54,5 @@ echo 'export LD_LIBRARY_PATH="$HOME/vendor/libreoffice/deps/lib:$LD_LIBRARY_PATH
 echo 'installing unoconv'
 apt-get install unoconv
 //curl -L https://raw.githubusercontent.com/dagwieers/unoconv/master/unoconv -o $CACHE_DIR/unoconv
-//echo '3'
+echo '3'
 //mv $CACHE_DIR/unoconv $BUILD_DIR/vendor/unoconv
